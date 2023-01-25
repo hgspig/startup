@@ -4,4 +4,4 @@
 
 And then I added stuff on github
 
-<p> Unfortunatly I edited this in two places</p>
+<p> Unfortunately I edited this in two places</p>
