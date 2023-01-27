@@ -17,6 +17,8 @@
 * Capability to add a rating on the home page as log as logged in. If user is not logged in and attempts to leave a rating they will be prompted to login 
 
 
-![plan](/IMG_4746.jpg)
+https://github.com/hgspig/startup/blob/main/IMG_4746.jpg
+
+<!--- ![plan](/IMG_4746.jpg)--->
 
 
