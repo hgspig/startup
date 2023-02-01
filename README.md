@@ -16,9 +16,7 @@
 * Capability to fill out an order form if logged in. If order form is attempted without being logged in the user will be prompted to log in
 * Capability to add a rating on the home page as log as logged in. If user is not logged in and attempts to leave a rating they will be prompted to login 
 
-
-https://github.com/hgspig/startup/blob/main/IMG_4746.jpg
-
-<!--- ![plan](/IMG_4746.jpg)--->
+## 02/01/23 AWS EC2 
+<p>Today I figured all my AWS stuff out to get my website up and running. I now have an official website tastyempanada.click. I had some problems with my AWS account and the domaine name purchase not getting approved but it all got fixed in the end </p>
 
 
