@@ -19,4 +19,6 @@
 ## 02/01/23 AWS EC2 
 <p>Today I figured all my AWS stuff out to get my website up and running. I now have an official website tastyempanada.click. I had some problems with my AWS account and the domaine name purchase not getting approved but it all got fixed in the end </p>
 
+## 02/03/23 HTTPS, TLS, and certificates
+<p>Today I made my website secure. I had trouble remembering the shortcuts in VIM, don't forget: i to get into insert mode and esc to exit insert mode. </p>
 
