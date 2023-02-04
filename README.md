@@ -22,3 +22,5 @@
 ## 02/03/23 HTTPS, TLS, and certificates
 <p>Today I made my website secure. I had trouble remembering the shortcuts in VIM, don't forget: i to get into insert mode and esc to exit insert mode. </p>
 
+## 02/03/23 HTML introduction
+<p>If you ever need to see a few basic commands check out this codepen: https://codepen.io/hgspig/pen/rNrPgLz </p>
