@@ -24,3 +24,6 @@
 
 ## 02/03/23 HTML introduction
 <p>If you ever need to see a few basic commands check out this codepen: https://codepen.io/hgspig/pen/rNrPgLz </p>
+
+## 02/08/23 HTML Website and Simon HTML
+<p>The HTML Website aspect of things was very straightforward. The only part I had trouble with was resizing my profile image because it was really big to start with. I leaned a lot while doing the Simon HTML. I looked at the class simon code for a few minutes and than worked on mine while looking at the class simon webpage for a guideline. I got stuck a lot and at first I formated the bulleted lists way different but I think I understand now why they did it the way they did.</p>
