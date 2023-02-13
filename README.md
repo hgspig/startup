@@ -27,3 +27,7 @@
 
 ## 02/08/23 HTML Website and Simon HTML
 <p>The HTML Website aspect of things was very straightforward. The only part I had trouble with was resizing my profile image because it was really big to start with. I leaned a lot while doing the Simon HTML. I looked at the class simon code for a few minutes and than worked on mine while looking at the class simon webpage for a guideline. I got stuck a lot and at first I formated the bulleted lists way different but I think I understand now why they did it the way they did.</p>
+
+## 02/08/23 CSS Practice assignment
+<p>The animation was trickier than expected. This MDN page will help with that: https://developer.mozilla.org/en-US/docs/Web/CSS/animation#syntax
+Also, I think I might change my startup to just be a task page instead. The user can login and then add their tasks to different categories and there will be a progress page and a way to send notifications to everyone else saying you finished a task. </p>
