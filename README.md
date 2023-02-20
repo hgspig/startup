@@ -31,3 +31,6 @@
 ## 02/08/23 CSS Practice assignment
 <p>The animation was trickier than expected. This MDN page will help with that: https://developer.mozilla.org/en-US/docs/Web/CSS/animation#syntax
 Also, I think I might change my startup to just be a task page instead. The user can login and then add their tasks to different categories and there will be a progress page and a way to send notifications to everyone else saying you finished a task. </p>
+
+## 02/20/23 Simon CSS
+<p>I was honestly really surprised by the use of div tags but I think I'm starting to figure out when to use them. I made a lot of mistakes along the way but tinkering with the code provided me with a lot of chances to figure out how it workes. It's exciting to have a website that looks so much cooler now with all the CSS elements </p>
