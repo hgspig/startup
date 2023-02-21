@@ -34,3 +34,6 @@ Also, I think I might change my startup to just be a task page instead. The user
 
 ## 02/20/23 Simon CSS
 <p>I was honestly really surprised by the use of div tags but I think I'm starting to figure out when to use them. I made a lot of mistakes along the way but tinkering with the code provided me with a lot of chances to figure out how it workes. It's exciting to have a website that looks so much cooler now with all the CSS elements </p>
+
+## 02/21/23 Startup HTML and CSS
+<p>I really like bootstrap, it's so fun to work with and really easy to costumize and stuff once you know what you're doing. I feel like I'm pretty close to finished with the HTML and CSS at this point. I am planning on needing to alter things a little more with the main checklist once I learn how to use JS. </p>
