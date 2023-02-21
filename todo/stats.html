@@ -14,7 +14,7 @@
   <body>
     <nav class="first-color navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand" href="list.html">To-Do</a>
+        <a class="navbar-brand" href="index.html">To-Do</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -43,88 +43,94 @@
         </div>
       </div>
     </nav>
+    <script language="javascript">
+      const [toggle] = document.getElementsByClassName("navbar-toggler");
+      toggle.addEventListener("click", () => {
+        document
+          .getElementById("navbarSupportedContent")
+          .classList.toggle("show");
+      });
+    </script>
 
     <!-- end of header  -->
 
     <!-- progress cards  -->
 
     <div class="row">
-        <section class="col-sm">
-          <div class="container py-4 h-100">
-            <div class="shadow card" style="border-radius: 1rem">
-              <div class="second-color card-header">School</div>
-              <div class="card-body">
-                <blockquote class="blockquote mb-0">
-                  <p>Your currently 75% through your tasks in school</p>
-                  <div class="progress">
-                    <div
-                      class="third-color progress-bar progress-bar-striped progress-bar-animated"
-                      role="progressbar"
-                      aria-label="Animated striped example"
-                      aria-valuenow="75"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                      style="width: 75%"
-                    ></div>
-                  </div>
-                </blockquote>
-              </div>
+      <section class="col-sm">
+        <div class="container py-4 h-100">
+          <div class="shadow card" style="border-radius: 1rem">
+            <div class="second-color card-header">School</div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>Your currently 75% through your tasks in school</p>
+                <div class="progress">
+                  <div
+                    class="third-color progress-bar progress-bar-striped progress-bar-animated"
+                    role="progressbar"
+                    aria-label="Animated striped example"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="width: 75%"
+                  ></div>
+                </div>
+              </blockquote>
             </div>
           </div>
-          </div>
-        </section>
+        </div>
+      </section>
     </div>
-        <div class="row">
-        <section class="col-sm">
-          <div class="container py-4 h-100">
-            <div class="shadow card" style="border-radius: 1rem">
-              <div class="second-color card-header">Work</div>
-              <div class="card-body">
-                <blockquote class="blockquote mb-0">
-                  <p>Your currently 33% through your tasks in work</p>
-                  <div class="progress">
-                    <div
-                      class="third-color progress-bar progress-bar-striped progress-bar-animated"
-                      role="progressbar"
-                      aria-label="Animated striped example"
-                      aria-valuenow="33"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                      style="width: 33%"
-                    ></div>
-                  </div>
-                </blockquote>
-              </div>
+    <div class="row">
+      <section class="col-sm">
+        <div class="container py-4 h-100">
+          <div class="shadow card" style="border-radius: 1rem">
+            <div class="second-color card-header">Work</div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>Your currently 33% through your tasks in work</p>
+                <div class="progress">
+                  <div
+                    class="third-color progress-bar progress-bar-striped progress-bar-animated"
+                    role="progressbar"
+                    aria-label="Animated striped example"
+                    aria-valuenow="33"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="width: 33%"
+                  ></div>
+                </div>
+              </blockquote>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
     </div>
 
     <div class="row">
-        <section class="col-sm">
-          <div class="container py-4 h-100">
-            <div class="shadow card" style="border-radius: 1rem">
-              <div class="second-color card-header">Other</div>
-              <div class="card-body">
-                <blockquote class="blockquote mb-0">
-                  <p>Your currently 80% through your other tasks</p>
-                  <div class="progress">
-                    <div
-                      class="third-color progress-bar progress-bar-striped progress-bar-animated"
-                      role="progressbar"
-                      aria-label="Animated striped example"
-                      aria-valuenow="80"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                      style="width: 80%"
-                    ></div>
-                  </div>
-                </blockquote>
-              </div>
+      <section class="col-sm">
+        <div class="container py-4 h-100">
+          <div class="shadow card" style="border-radius: 1rem">
+            <div class="second-color card-header">Other</div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>Your currently 80% through your other tasks</p>
+                <div class="progress">
+                  <div
+                    class="third-color progress-bar progress-bar-striped progress-bar-animated"
+                    role="progressbar"
+                    aria-label="Animated striped example"
+                    aria-valuenow="80"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="width: 80%"
+                  ></div>
+                </div>
+              </blockquote>
             </div>
           </div>
-          </div>
-        </section>
+        </div>
+      </section>
     </div>
   </body>
 </html>

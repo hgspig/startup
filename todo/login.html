@@ -14,7 +14,7 @@
   <body>
     <nav class="first-color navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand" href="list.html">To-Do</a>
+        <a class="navbar-brand" href="index.html">To-Do</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -43,6 +43,14 @@
         </div>
       </div>
     </nav>
+    <script language="javascript">
+      const [toggle] = document.getElementsByClassName("navbar-toggler");
+      toggle.addEventListener("click", () => {
+        document
+          .getElementById("navbarSupportedContent")
+          .classList.toggle("show");
+      });
+    </script>
     <section class="vh-100">
       <div class="container py-5 h-100">
         <div class="row d-flex justify-content-center align-items-center h-100">
@@ -119,23 +127,17 @@
         </div>
       </div>
     </section>
-    <script language="javascript">
-      const [toggle] = document.getElementsByClassName("navbar-toggler");
-      toggle.addEventListener("click", () => {
-        document
-          .getElementById("navbarSupportedContent")
-          .classList.toggle("show");
-      });
-    </script>
-    <footer class="bg-dark text-dark text-muted">
-      <div class="container-fluid">
-        <span class="text-reset">Author Name(s)</span>
-        <a
-          class="text-reset"
-          href="https://github.com/webprogramming260/simon-css"
-          >Source</a
-        >
+    <footer class="bg-light text-center text-lg-start">
+      <!-- Copyright -->
+      <div class="text-left p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2023 Hannah Spigarelli
+        <div class="text-right">
+          <a class="text-dark" href="https://github.com/hgspig/startup"
+            >Source</a
+          >
+        </div>
       </div>
+      <!-- Copyright -->
     </footer>
   </body>
 </html>
