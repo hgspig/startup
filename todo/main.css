@@ -8,3 +8,37 @@
 .third-color {
     background-color: #5DDDE8;
 }
+.min-height {
+    min-height: 90vh; /* with calc function subtract the header height */
+}
+.footerflex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px
+}
+@media (max-width: 768px) {
+    .footerflex {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .removescrolling-sm {
+        height:81vh;
+    }
+}
+@media (min-width: 768px){
+    .removescrolling {
+        height:83vh;
+    }
+}
+.progresscardflex {
+    max-width: 90vw;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.overflowfix {
+    overflow-x: hidden;
+}

@@ -11,7 +11,7 @@
     />
     <link rel="stylesheet" href="main.css" />
   </head>
-  <body>
+  <body class="overflowfix">
     <nav class="first-color navbar navbar-expand-lg">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">To-Do</a>
@@ -43,6 +43,7 @@
         </div>
       </div>
     </nav>
+    <!-- hamburger bar script -->
     <script language="javascript">
       const [toggle] = document.getElementsByClassName("navbar-toggler");
       toggle.addEventListener("click", () => {
@@ -52,94 +53,108 @@
       });
     </script>
 
-    <!-- progress tracking element -->
+    <!-- progress tracking cards -->
+    <div>
+      <div class="row">
+        <section class="col-sm">
+          <div class="container py-4 h-100">
+            <div class="shadow card" style="border-radius: 1rem">
+              <div class="second-color card-header">School</div>
+              <div class="card-body">
+                <!-- insert content here -->
 
-    <div class="row">
-      <section class="col-sm">
-        <div class="container py-4 h-100">
-          <div class="shadow card" style="border-radius: 1rem">
-            <div class="second-color card-header">School</div>
-            <div class="card-body">
-              <!-- insert content here -->
-
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">Get this done</li>
-                <li class="list-group-item">Another task</li>
-                <li class="list-group-item">Also do this</li>
-                <li class="list-group-item">
-                  <div class="input-group flex-nowrap">
-                    <input
-                      type="text"
-                      class="form-control"
-                      placeholder="Add a task"
-                      aria-label="NextTask"
-                      aria-describedby="addon-wrapping"
-                    />
-                  </div>
-                </li>
-              </ul>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Get this done</li>
+                  <li class="list-group-item">Another task</li>
+                  <li class="list-group-item">Also do this</li>
+                  <li class="list-group-item">
+                    <div class="input-group flex-nowrap">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Add a task"
+                        aria-label="NextTask"
+                        aria-describedby="addon-wrapping"
+                      />
+                    </div>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
-    </div>
-    <div class="row">
-      <section class="col-sm">
-        <div class="container py-4 h-100">
-          <div class="shadow card" style="border-radius: 1rem">
-            <div class="second-color card-header">Work</div>
-            <div class="card-body">
-              <!-- insert content here -->
+        </section>
+      </div>
+      <div class="row">
+        <section class="col-sm">
+          <div class="container py-4 h-100">
+            <div class="shadow card" style="border-radius: 1rem">
+              <div class="second-color card-header">Work</div>
+              <div class="card-body">
+                <!-- insert content here -->
 
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">Get this done</li>
-                <li class="list-group-item">Another task</li>
-                <li class="list-group-item">Also do this</li>
-                <li class="list-group-item">
-                  <div class="input-group flex-nowrap">
-                    <input
-                      type="text"
-                      class="form-control"
-                      placeholder="Add a task"
-                      aria-label="NextTask"
-                      aria-describedby="addon-wrapping"
-                    />
-                  </div>
-                </li>
-              </ul>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Get this done</li>
+                  <li class="list-group-item">Another task</li>
+                  <li class="list-group-item">Also do this</li>
+                  <li class="list-group-item">
+                    <div class="input-group flex-nowrap">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Add a task"
+                        aria-label="NextTask"
+                        aria-describedby="addon-wrapping"
+                      />
+                    </div>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
-    </div>
-    <div class="row">
-      <section class="col-sm">
-        <div class="container py-4 h-100">
-          <div class="shadow card" style="border-radius: 1rem">
-            <div class="second-color card-header">Other</div>
-            <div class="card-body">
-              <!-- insert content here -->
+        </section>
+      </div>
+      <div class="row">
+        <section class="col-sm">
+          <div class="container py-4 h-100">
+            <div class="shadow card" style="border-radius: 1rem">
+              <div class="second-color card-header">Other</div>
+              <div class="card-body">
+                <!-- insert content here -->
 
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">Get this done</li>
-                <li class="list-group-item">Another task</li>
-                <li class="list-group-item">Also do this</li>
-                <li class="list-group-item">
-                  <div class="input-group flex-nowrap">
-                    <input
-                      type="text"
-                      class="form-control"
-                      placeholder="Add a task"
-                      aria-label="NextTask"
-                      aria-describedby="addon-wrapping"
-                    />
-                  </div>
-                </li>
-              </ul>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Get this done</li>
+                  <li class="list-group-item">Another task</li>
+                  <li class="list-group-item">Also do this</li>
+                  <li class="list-group-item">
+                    <div class="input-group flex-nowrap">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Add a task"
+                        aria-label="NextTask"
+                        aria-describedby="addon-wrapping"
+                      />
+                    </div>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </div>
+    <footer
+      class="footerflex text-center"
+      style="background-color: rgba(0, 0, 0, 0.2)"
+    >
+      <!-- Copyright -->
+      <div class="text-lg-start p-3">© 2023 Hannah Spigarelli</div>
+      <div class="text-lg-end">
+        <a class="text-dark" href="https://github.com/hgspig/startup"
+          >Source
+        </a>
+      </div>
+      <!-- Copyright -->
+    </footer>
   </body>
 </html>
