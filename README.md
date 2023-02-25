@@ -40,3 +40,10 @@ Also, I think I might change my startup to just be a task page instead. The user
 
 ## 02/23/23 More on startup HTML and CSS
 <p>I did a lot today to troubleshoot some glitches I had in the website. I fixed the footer which was a little too far down the page. I did that by hardcoding the CSS to set the height: 81vh with an @media queery. I also fixed a problem I had on the stats and index page where the card div was overstepping it's bounds and causing a right to left scrolling issue (the header and footer weren't as big as the content). I fixed this by overflow-x: hidden. I'm not sure that's really how it was supposed to be fixed but it works for now and I'll change it down the road if I need to. </p>
+
+## 02/24/23 JS notes
+<p>  three ways of defining variables:
+var x = 1; // deprecated
+let y = 1;
+const z = 'tacos'; 
+</p>
