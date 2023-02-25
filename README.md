@@ -41,9 +41,38 @@ Also, I think I might change my startup to just be a task page instead. The user
 ## 02/23/23 More on startup HTML and CSS
 <p>I did a lot today to troubleshoot some glitches I had in the website. I fixed the footer which was a little too far down the page. I did that by hardcoding the CSS to set the height: 81vh with an @media queery. I also fixed a problem I had on the stats and index page where the card div was overstepping it's bounds and causing a right to left scrolling issue (the header and footer weren't as big as the content). I fixed this by overflow-x: hidden. I'm not sure that's really how it was supposed to be fixed but it works for now and I'll change it down the road if I need to. </p>
 
-## 02/24/23 JS notes
-<p>  three ways of defining variables:
-var x = 1; // deprecated
-let y = 1;
-const z = 'tacos'; 
+## JS 
+<p> When you declare a variable you can do it in two ways: <br>
+let y = 1; <br>
+const z = 'tacos'; <br>
+var x = 1; // var was deprecated <br>
+</p>
+### Conditionals 
+<p>
+<b> if else </b> <br>
+if (case) { <br>
+  then <br>
+} else if (case) { <br>
+  then <br>
+} else { <br>
+} <br>
+The Ternary operator does the same thing but compactly: <br>
+a === 1 ? console.log(1) : console.log('not 1'); <br> <br>
+<b>For loops</b> <br>
+for (let i = 0; i < 2; i++) { <br>
+  console.log(i); <br>
+} <br><br>
+<b> do while</b> <br>
+let i = 0; <br>
+do {<br>
+  console.log(i);<br>
+  i++;<br>
+} while (i < 2);<br>
+// OUTPUT: 0 1<br>
+https://github.com/webprogramming260/.github/blob/main/profile/javascript/typeConstruct/typeConstruct.md The rest are here
+</p>
+<p>
+
+</p>
+<p>
 </p>
