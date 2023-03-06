@@ -76,3 +76,6 @@ https://github.com/webprogramming260/.github/blob/main/profile/javascript/typeCo
 </p>
 <p>
 </p>
+
+## 03/06/23 Simon JS
+<p>I made so many mistakes when doing this part and some of them took a while to find. I had trouble with some formating and the nav bar especially. I was surprised by how much we added to the HTML files when we did the JS. This part of Simon felt way harder than the CSS/HTML. I really liked learning how they added the login information to the page in a dynamic way (with the player name). </p>
