@@ -42,3 +42,7 @@
 .overflowfix {
     overflow-x: hidden;
 }
+
+@media (min-height: 800px) { 
+    /* height:120vh; add a tag */
+}

@@ -63,16 +63,16 @@
               <div class="second-color card-header">School</div>
               <div class="card-body">
                 <blockquote class="blockquote mb-0">
-                  <p>Your currently 75% through your tasks in school</p>
+                  <p>
+                    Your currently <span id="schoolpercent"></span> through your
+                    tasks in school
+                  </p>
                   <div class="progress">
                     <div
                       class="third-color progress-bar progress-bar-striped progress-bar-animated"
                       role="progressbar"
+                      id="schoolpercentagevalueHTML"
                       aria-label="Animated striped example"
-                      aria-valuenow="75"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                      style="width: 75%"
                     ></div>
                   </div>
                 </blockquote>
@@ -88,16 +88,16 @@
               <div class="second-color card-header">Work</div>
               <div class="card-body">
                 <blockquote class="blockquote mb-0">
-                  <p>Your currently 33% through your tasks in work</p>
+                  <p>
+                    Your currently <span id="workpercent"></span> through your
+                    tasks in work
+                  </p>
                   <div class="progress">
                     <div
                       class="third-color progress-bar progress-bar-striped progress-bar-animated"
                       role="progressbar"
+                      id="workpercentagevalueHTML"
                       aria-label="Animated striped example"
-                      aria-valuenow="33"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                      style="width: 33%"
                     ></div>
                   </div>
                 </blockquote>
@@ -114,16 +114,16 @@
               <div class="second-color card-header">Other</div>
               <div class="card-body">
                 <blockquote class="blockquote mb-0">
-                  <p>Your currently 80% through your other tasks</p>
+                  <p>
+                    Your currently <span id="otherpercent"></span> through your
+                    other tasks
+                  </p>
                   <div class="progress">
                     <div
                       class="third-color progress-bar progress-bar-striped progress-bar-animated"
                       role="progressbar"
+                      id="otherpercentagevalueHTML"
                       aria-label="Animated striped example"
-                      aria-valuenow="80"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                      style="width: 80%"
                     ></div>
                   </div>
                 </blockquote>
@@ -146,6 +146,7 @@
       </div>
       <!-- Copyright -->
     </footer>
+    <script src="stats.js"></script>
   </body>
 </html>
 
