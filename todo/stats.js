@@ -1,6 +1,6 @@
-let schooltaskscompleted = 3;
+let schooltaskscompleted = 6;
 let schooltaskstotal = 7;
-let worktaskscompleted = 7;
+let worktaskscompleted = 2;
 let worktaskstotal = 8;
 let othertaskscompleted = 1;
 let othertaskstotal = 9;
@@ -30,5 +30,3 @@ const overallotherperecent = document.querySelector("#otherpercentagevalueHTML")
 overallotherperecent.style.width = otherpercentvalue + "%";
 
 
-//what should the funcitons look like for the strings in HTML and such
-//what should I do for the login page?
